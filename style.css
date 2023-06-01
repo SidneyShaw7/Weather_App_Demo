@@ -1,0 +1,134 @@
+
+body {
+    font-family: monospace;
+    background-color: #E6FFFD;
+}
+
+.section-center {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px;
+}
+.item-form {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 10px; */
+    padding: 5px;
+    width: 215px;
+    height: 300px;
+    background-color: #C0EEF2;
+
+}
+
+.btn {
+    border-width: 1px;
+    border-radius: 7px;
+    background-color: #FFE194;
+}
+
+.input {
+    /* border: none; */
+    border-width: 0px 0px 1px 0px;
+    /* border-radius: 7px; */
+    /* border-bottom: 3px ; */
+    background-color: #C0EEF2;
+}
+
+.item-container {
+    margin: 3px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+    visibility: visible !important;
+  }
+
+.alert-success {
+    color: #155724;
+    background: #d4edda;
+    visibility: visible !important;
+  }
+
+.alert {
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 227px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 65px;
+    height: 65px;
+}
+
+.city {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+
+.conditions {
+    margin: 11px;
+    font-size: 15px;
+}
+
+.main-temp {
+    margin: 11px;
+    font-size: 20px;
+}
+
+.max-min-conditions {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-size: 15px;
+}
+
+.max-min {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+span {
+    margin-top: 11px;
+    margin-bottom: 11px;   
+}
+
+.humidity {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.span2 {
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+.feels-like {
+    margin-top: 0px;
+    margin-bottom: 11px;
+    font-size: 15px;
+}
+
+.span1 {
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
